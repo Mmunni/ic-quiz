@@ -39,8 +39,6 @@ const Statistics = () => {
                 </div>
              </div>
              </div>
-                
-             {/* </ResponsiveContainer>  */}
             
         </div>
     );

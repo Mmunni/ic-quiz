@@ -10,7 +10,7 @@ const Quiz = () => {
         <div>
            <div className="container mt-5">
            <div className="quiz-area">
-           <h2 className='mb-5'>Quiz of: {quiz.data.name}</h2>
+           <h3 className='mb-5'>Quiz of: <span>{quiz.data.name}</span></h3>
            <div className="single-quiz">
             {
                 quiz.data.questions.map((qz, index) => <Question 
