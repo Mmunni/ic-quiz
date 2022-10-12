@@ -27,13 +27,15 @@ const Statistics = () => {
         <div>
              <div className="container mt-5">
              <div className="row">
-                <div className="col chart">
-                <BarChart  width={400} height={400} data={total}>
+                <div className="col  me-auto">
+                <ResponsiveContainer width="100%" height={400}>
+                <BarChart  width={300} height={400} data={total}>
                     <Bar dataKey="total" fill=" #c0392b" />
                     <XAxis dataKey="name"></XAxis>
                     <YAxis dataKey="total"></YAxis>
                     <Tooltip></Tooltip>
                 </BarChart>
+                </ResponsiveContainer>
                 </div>
              </div>
              </div>
