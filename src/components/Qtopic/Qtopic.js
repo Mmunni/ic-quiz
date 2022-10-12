@@ -10,7 +10,7 @@ const Qtopic = ({topic}) => {
             <div className="single-topic">
             <img src={topic.logo} alt="" />
             <h3>{topic.name}</h3>
-           <Link to ={`/topics/${id}`}> <button className='topic-btn'>Start Practice <FontAwesomeIcon icon={faArrowRight} /></button> </Link> 
+           <Link to ={`/topic/${id}`}> <button className='topic-btn'>Start Practice <FontAwesomeIcon icon={faArrowRight} /></button> </Link> 
             </div>
         </div>
     );
