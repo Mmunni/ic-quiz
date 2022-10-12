@@ -20,8 +20,7 @@ const Quiz = () => {
             }
             
            </div>
-            {/* <h4>quize {quiz.data.questions[2].question}</h4>
-            <p>quize {quiz.data.questions[2].options}</p> */}
+            
            
            </div>
            </div>

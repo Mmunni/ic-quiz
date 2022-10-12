@@ -1,0 +1,18 @@
+.question-container {
+    background-color:  #ffb8b8;
+    padding: 25px 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+button.correct-answer {
+    margin-right: -93%;
+    border: none;
+    background-color: #ffb8b8;
+    color: #ea2e15;
+    font-size: 20px;
+}
