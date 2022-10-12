@@ -1,0 +1,24 @@
+.header-area{
+    background-color: #dcdde1 ;
+}
+.logo{
+    color: #c0392b;
+    transition: .3s;
+}
+.logo:hover{
+    color:#e74c3c;
+}
+.menu li a {
+    margin-left: 5px;
+    color: #c0392b;
+    transition: .3s;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+}
+.menu li a:hover{
+    color:#e74c3c;
+}
+.active{
+    background-color: #ffb8b8;
+}
