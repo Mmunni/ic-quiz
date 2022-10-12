@@ -1,0 +1,27 @@
+.single-topic {
+    background-color: #ffb8b8;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.single-topic img {
+    width: 100%;
+    padding: 20px;
+    background-color: #c0392b;
+    border-radius: 10px;
+}
+.single-topic h3{
+    color: #c0392b;
+    font-weight: 600px;
+    margin-top: 10px;
+}
+.topic-btn {
+    border: none;
+    font-weight: 600;
+    background-color: #c0392b;
+    color: #fff;
+    padding: 5px 10px;
+}
+.topic-btn:hover{
+    background-color: #9a190a;
+}

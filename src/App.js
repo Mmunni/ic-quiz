@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './loaders/Main';
-import Home from './components/Home/Home';
+import Topics from './components/Topics/Topics';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 
@@ -13,8 +13,9 @@ function App() {
       element: <Main></Main>,
       children: [
         {
-          path: '/',
-          element: <Home></Home>
+          path: '/topics',
+          loader:() => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Topics></Topics>
         },
         {
           path: 'statistics',
@@ -27,7 +28,7 @@ function App() {
       ]
     },
     {
-      path: '/*',
+      path: '*',
       element: <h3>404 Page Not Found</h3>
     }
   ])
